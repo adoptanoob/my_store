@@ -22,7 +22,7 @@ module MyStore
     end
 
     # config.assets.initialize_on_precompile = false
-    config.assets.initialize_on_precompile = false
+    config.serve_static_assets = true
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
