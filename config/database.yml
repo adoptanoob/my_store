@@ -19,3 +19,11 @@ development:
 test:
   <<: *default
   database: db/test.sqlite3
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: my_store_production
+  pool: 5
+  username: ENV['my_store']
+  password: ENV['my_store_password']
