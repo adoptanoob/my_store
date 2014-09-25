@@ -27,6 +27,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 group :production do 
   gem 'pg'
+  gem 'unicorn'
 end
 
 # bundle exec rake doc:rails generates the API under doc/api.
