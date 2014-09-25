@@ -52,4 +52,4 @@ end
 #Use debugger
 gem 'byebug', group: [:development, :test]
 gem 'sqlite3', group: [:development, :test] 
-
+gem 'rails_12factor', group: :production
