@@ -1,3 +1,8 @@
+Rails.application.config.assets.version = '1.0'
+Rails.application.config.assets.precompile += %w( bx_loader.gif )
+Rails.application.config.assets.precompile << %w( store/print.css )
+Rails.application.config.assets.precompile << %w( icons.svg icons.ttf icons.eot icons.woff )
+Rails.application.config.assets.precompile << %w( images/bx_loader.gif images/controls.png )
 
 # Configure Spree Preferences
 #
@@ -10,11 +15,6 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
-config.assets.precompile += %w( bx_loader.gif )
-config.assets.precompile << %w( store/print.css )
-config.assets.precompile << %w( icons.svg icons.ttf icons.eot icons.woff )
-config.assets.precompile << %w( images/bx_loader.gif images/controls.png )
-
 end
 Spree::AppConfiguration.preference :theme_background_color, :string, default: "#FFFFFF"
 
