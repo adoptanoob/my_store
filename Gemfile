@@ -10,13 +10,13 @@ gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 gem 'spree', github: 'spree/spree', branch: '2-3-stable'
-gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-3-stable'
-
+gem 'spree_fancy', :github => 'spree/spree_fancy', branch: '2-3-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-3-stable'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-3-stable'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
